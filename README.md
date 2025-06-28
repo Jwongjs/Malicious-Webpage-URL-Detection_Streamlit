@@ -16,13 +16,13 @@ A machine learning-powered web application built with Streamlit that classifies 
   - IP address detection
   - And more...
 
-## 🚀 Quick Start
+## �️ Installation
 
 ### Prerequisites
 - Python 3.7 or higher
-- Git with Git LFS installed
+- Git with Git LFS installed (for large model files)
 
-### Installation
+### Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -81,7 +81,11 @@ The application uses two pre-trained models:
 - **Random Forest Classifier**: Ensemble learning method using multiple decision trees
 - **XGBoost Classifier**: Gradient boosting framework optimized for performance
 
+<<<<<<< HEAD
 Both models classify URLs into four categories:
+=======
+Both models are trained to classify URLs into four categories:
+>>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
 - 🟢 **Benign**: Safe, legitimate websites
 - 🟡 **Defacement**: Websites with unauthorized visual modifications
 - 🔴 **Phishing**: Fake websites designed to steal information
@@ -89,6 +93,7 @@ Both models classify URLs into four categories:
 
 ## 🔍 URL Features Analyzed
 
+<<<<<<< HEAD
 | Feature Category | Features |
 |------------------|----------|
 | **Protocol Analysis** | HTTPS detection, abnormal URL patterns |
@@ -130,10 +135,26 @@ This prediction tool is for educational and research purposes. The accuracy depe
 
 ```
 streamlit>=1.28.0
+=======
+The app extracts and analyzes multiple features from URLs:
+
+| Feature Type | Description |
+|--------------|-------------|
+| **Protocol Analysis** | HTTPS vs HTTP detection |
+| **URL Structure** | Length, special characters, digits, letters |
+| **Domain Analysis** | Primary domain, secondary domain, geographic region |
+| **Security Indicators** | IP addresses, URL shorteners, abnormal patterns |
+
+## 📋 Requirements
+
+```
+streamlit
+>>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
 streamlit-lottie
 tld
 urllib3
 numpy
+<<<<<<< HEAD
 scikit-learn
 xgboost
 tldextract
@@ -147,13 +168,37 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+=======
+```
+
+## 🎮 Usage
+
+1. **Select a Model**: Choose between Random Forest or XGBoost
+2. **Enter URL**: Input the URL you want to analyze
+3. **Click Analyze**: Press the "🔍 Check URL" button
+4. **View Results**: See the classification result and detailed analysis
+
+### Example URLs for Testing
+
+You can test the application with URLs from these sources:
+- [PhishTank](https://phishtank.org/) - Known phishing URLs
+- [URLhaus](https://urlhaus.abuse.ch/browse/) - Malware URLs
+- [BadSSL](https://badssl.com/) - Various SSL/security test cases
+
+## ⚠️ Disclaimer
+
+This prediction tool is for educational and research purposes. The accuracy depends on the training dataset and should not be the sole factor in making security decisions. Always use multiple security tools and best practices when assessing URL safety.
+>>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
 
 ## 🙏 Acknowledgments
 
 - Built with [Streamlit](https://streamlit.io/)
 - Animations powered by [Lottie](https://lottiefiles.com/)
 - Machine learning models using [scikit-learn](https://scikit-learn.org/) and [XGBoost](https://xgboost.readthedocs.io/)
+<<<<<<< HEAD
 
 ---
 
 ⭐ If you found this project helpful, please give it a star!
+=======
+>>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
