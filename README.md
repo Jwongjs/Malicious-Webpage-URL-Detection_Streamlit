@@ -144,7 +144,6 @@ The app extracts and analyzes multiple features from URLs:
 
 ```
 streamlit
->>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
 streamlit-lottie
 tld
 urllib3
