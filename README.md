@@ -148,7 +148,6 @@ streamlit-lottie
 tld
 urllib3
 numpy
-<<<<<<< HEAD
 scikit-learn
 xgboost
 tldextract
@@ -182,11 +181,9 @@ You can test the application with URLs from these sources:
 ## ⚠️ Disclaimer
 
 This prediction tool is for educational and research purposes. The accuracy depends on the training dataset and should not be the sole factor in making security decisions. Always use multiple security tools and best practices when assessing URL safety.
->>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
 
 ## 🙏 Acknowledgments
 
 - Built with [Streamlit](https://streamlit.io/)
 - Animations powered by [Lottie](https://lottiefiles.com/)
 - Machine learning models using [scikit-learn](https://scikit-learn.org/) and [XGBoost](https://xgboost.readthedocs.io/)
-<<<<<<< HEAD
