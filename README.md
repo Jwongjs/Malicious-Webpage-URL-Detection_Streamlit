@@ -79,11 +79,9 @@ The application uses two pre-trained models:
 - **Random Forest Classifier**: Ensemble learning method using multiple decision trees
 - **XGBoost Classifier**: Gradient boosting framework optimized for performance
 
-<<<<<<< HEAD
 Both models classify URLs into four categories:
 =======
 Both models are trained to classify URLs into four categories:
->>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
 - 🟢 **Benign**: Safe, legitimate websites
 - 🟡 **Defacement**: Websites with unauthorized visual modifications
 - 🔴 **Phishing**: Fake websites designed to steal information
@@ -91,7 +89,6 @@ Both models are trained to classify URLs into four categories:
 
 ## 🔍 URL Features Analyzed
 
-<<<<<<< HEAD
 | Feature Category | Features |
 |------------------|----------|
 | **Protocol Analysis** | HTTPS detection, abnormal URL patterns |
@@ -194,9 +191,3 @@ This prediction tool is for educational and research purposes. The accuracy depe
 - Animations powered by [Lottie](https://lottiefiles.com/)
 - Machine learning models using [scikit-learn](https://scikit-learn.org/) and [XGBoost](https://xgboost.readthedocs.io/)
 <<<<<<< HEAD
-
----
-
-⭐ If you found this project helpful, please give it a star!
-=======
->>>>>>> 99f9c4b9848a07046b290eddef976d5438dbb8af
