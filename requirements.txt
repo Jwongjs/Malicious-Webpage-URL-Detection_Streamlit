@@ -1,0 +1,9 @@
+streamlit
+streamlit-lottie
+tld
+urllib3
+numpy
+scikit-learn
+xgboost
+tldextract
+pandas
