@@ -26,8 +26,8 @@ A machine learning-powered web application built with Streamlit that classifies 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/url-classification-app.git
-   cd url-classification-app
+   git clone https://github.com/Jwongjs/Malicious-Webpage-URL-Detection_Streamlit.git
+   cd Malicious-Webpage-URL-Detection_Streamlit
    ```
 
 2. **Create a virtual environment**
