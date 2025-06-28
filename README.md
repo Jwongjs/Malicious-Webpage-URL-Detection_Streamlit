@@ -54,8 +54,6 @@ A machine learning-powered web application built with Streamlit that classifies 
    streamlit run mainPage.py
    ```
 
-6. **Open your browser** and navigate to `http://localhost:8501`
-
 ## 📁 Project Structure
 
 ```
