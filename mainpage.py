@@ -43,9 +43,9 @@ def page_intro_section():
 def model_selection():
     model_choice = st.selectbox("#### Select Model:", ("Random Forest", "XGBoost"))
     if model_choice == "Random Forest":
-        model = pickle.load(open(r"Models\rf_classifier.pkl", "rb"))
+        model = pickle.load(open(r"Models/rf_classifier.pkl", "rb"))
     elif model_choice == "XGBoost":
-        model = pickle.load(open(r"Models\xgboost_classifier.pkl", "rb"))
+        model = pickle.load(open(r"Models/xgboost_classifier.pkl", "rb"))
 
     st.write(f"⚙️ Current model engine: **{model_choice}** ⚙️")
     
